@@ -1,0 +1,75 @@
+.footer {
+  color: blue;
+}
+
+.product-img {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.casilla {
+  border: 1px solid black;
+  width: 300px;
+}
+.sala-chat {
+  background-color: rgb(86, 210, 241);
+  width: 500px;
+  margin-left: 50px;
+  border-radius: 7px;
+}
+.chat {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.chat2 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+h2 {
+  margin-left: 50px;
+  color: blue;
+}
+.button {
+  background-color: blue;
+  border-radius: 2px;
+  color: aliceblue;
+  width: 60px;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: darkseagreen;
+}
+
+.mensajes {
+  height: 135px;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 392px;
+  border: 1px solid;
+  padding: 10px;
+
+}
